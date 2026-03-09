@@ -39,7 +39,21 @@ I en l'altre màquina, posem la IP en el buscador i veiem la pàgina de benvingu
 ![alt text](image-8.png)
 
 - Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
+
+Primer de tot copiem el arxiu de configuració en els nostres dominis.
+
+![alt text](image-9.png)
+
+Entrem.
+
+![alt text](image-10.png)
+![alt text](image-12.png)
+![alt text](image-11.png)
+
+I fem el mateix amb el academia.test.
+
 - Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions. Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
+
 
 3. Personalització d'Errors
 
