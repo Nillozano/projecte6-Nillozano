@@ -35,6 +35,9 @@ I en l'altre màquina, posem la IP en el buscador i veiem la pàgina de benvingu
 2. Configuració de Server Blocks (Multidomini)
 
 - Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
+
+![alt text](image-8.png)
+
 - Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
 - Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions. Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
 
