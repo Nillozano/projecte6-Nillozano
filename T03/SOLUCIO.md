@@ -54,6 +54,15 @@ I fem el mateix amb el academia.test.
 
 - Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions. Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
 
+![alt text](image-12.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
+
+I mostrem que gràcies a l'altre pràctica ja tenim l'altre màquina configurada per accedir a aquests dominis.
+
+![](image-17.png)
+![alt text](image-18.png)
 
 3. Personalització d'Errors
 
