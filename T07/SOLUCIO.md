@@ -134,6 +134,19 @@ Pregunta de consultoria: El client us pregunta: "Com podem crear els nostres pro
 Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un equip d’escriptori.
 
 - Habiliteu una carpeta compartida al servidor anomenada perfils.
+
+Creem la carpeta.
+
+![](img/28.png)
+
+La compartim.
+
+![](img/29.png)
+
+I afegim gestio en el compartir.
+
+![](img/30.png)
+
 - Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
 - Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.
 
@@ -145,26 +158,26 @@ Per evitar pèrdues de dades si un ordinador s'espatlla:
 
 Ara dins de translogic17.test creem un altre GPO que es digui Redirecció.
 
-![](img/28.png)
+![](img/31.png)
 
 El editem en el folder redirectio.
 
-![](img/29.png)
+![](img/32.png)
 
 Anem a Documents Properties,  posem: Basic, posem en Root Path (Camí d'arrel) la ruta
 corresponent a la carpeta homes (també podríem posar T05 al davant, per agafar
 tota la ruta).
 
-![](img/30.png)
+![](img/33.png)
 
 I mirem en la màquina client que tingui la ruta correcte.
 
-![](img/31.png)
+![](img/34.png)
 
 - Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.
 
-![](img/32.png)
-![](img/33.png)
+![](img/35.png)
+![](img/36.png)
 
 5. Delegació de Funcions (Helpdesk)
 
@@ -172,30 +185,30 @@ TransLògic S.A. ha contractat un auxiliar de suport. No volen donar-li les clau
 
 - Creeu un usuari anomenat adminOU dins la OU d'usuaris.
 
-![](img/34.png)
+![](img/37.png)
 
 Li posem contrasenya.
 
-![](img/35.png)
+![](img/38.png)
 
 Resultat.
 
-![](img/36.png)
+![](img/39.png)
 
 - Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:
 
 Per això en translogic fem clic dret i la primera opció.
 
-![](img/37.png)
+![](img/40.png)
 
 I posem el adminOU.
 
-![](img/38.png)
+![](img/41.png)
 
 - Reiniciar contrasenyes dels treballadors.
 - Modificar la pertinença als grups (gestio, magatzem, etc.).
 
-![](img/39.png)
+![](img/42.png)
 
 Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
 
@@ -211,9 +224,7 @@ Demostreu (amb captures) que l'adminOU pot canviar un password però NO té perm
 
 
 
-![](img/40.png)
-![](img/41.png)
-![](img/42.png)
+
 ![](img/43.png)
 ![](img/44.png)
 ![](img/45.png)
