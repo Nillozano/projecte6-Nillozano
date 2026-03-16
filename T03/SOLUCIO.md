@@ -67,7 +67,24 @@ I mostrem que gràcies a l'altre pràctica ja tenim l'altre màquina configurada
 3. Personalització d'Errors
 
 - Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
+
+![alt text](image-13.png)
+
+Editem les següents linies:
+
+![alt text](image-20.png)
+
+Reiniciem el servei i fem el mateix amb el academia.
+
 - Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
+
+![alt text](image-21.png)
+![alt text](image-22.png)
+
+Seguidament, desde el terminal mirem com veu el error 404 per la connexió erronia.
+
+![alt text](image-23.png)
+
 
 4. Seguretat i Certificats (HTTPS)
 - Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).
