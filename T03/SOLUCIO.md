@@ -47,7 +47,7 @@ Primer de tot copiem el arxiu de configuració en els nostres dominis.
 Entrem.
 
 ![alt text](image-10.png)
-![alt text](image-13.png)
+![alt text](image-19.png)
 ![alt text](image-11.png)
 
 I fem el mateix amb el academia.test.
