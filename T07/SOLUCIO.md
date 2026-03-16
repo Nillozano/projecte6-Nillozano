@@ -148,6 +148,11 @@ I afegim gestio en el compartir.
 ![](img/30.png)
 
 - Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
+
+Ara editarem el usuari de gestio, anem dins de propietats i editem el profile de la següent forma:
+
+![](img/31.png)
+
 - Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.
 
 4. Seguretat de Dades (Redirecció de Carpetes)
@@ -158,26 +163,26 @@ Per evitar pèrdues de dades si un ordinador s'espatlla:
 
 Ara dins de translogic17.test creem un altre GPO que es digui Redirecció.
 
-![](img/31.png)
+![](img/32.png)
 
 El editem en el folder redirectio.
 
-![](img/32.png)
+![](img/33.png)
 
 Anem a Documents Properties,  posem: Basic, posem en Root Path (Camí d'arrel) la ruta
 corresponent a la carpeta homes (també podríem posar T05 al davant, per agafar
 tota la ruta).
 
-![](img/33.png)
+![](img/34.png)
 
 I mirem en la màquina client que tingui la ruta correcte.
 
-![](img/34.png)
+![](img/35.png)
 
 - Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.
 
-![](img/35.png)
 ![](img/36.png)
+![](img/37.png)
 
 5. Delegació de Funcions (Helpdesk)
 
@@ -185,101 +190,53 @@ TransLògic S.A. ha contractat un auxiliar de suport. No volen donar-li les clau
 
 - Creeu un usuari anomenat adminOU dins la OU d'usuaris.
 
-![](img/37.png)
+![](img/38.png)
 
 Li posem contrasenya.
 
-![](img/38.png)
+![](img/39.png)
 
 Resultat.
 
-![](img/39.png)
+![](img/40.png)
 
 - Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:
 
 Per això en translogic fem clic dret i la primera opció.
 
-![](img/40.png)
+![](img/41.png)
 
 I posem el adminOU.
 
-![](img/41.png)
+![](img/42.png)
 
 - Reiniciar contrasenyes dels treballadors.
 - Modificar la pertinença als grups (gestio, magatzem, etc.).
 
-![](img/42.png)
+![](img/43.png)
 
 Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
 
+Iniciem la sessió en la màquina client amb l’admin i afegim les característiques.
 
-
-
-
-
-
-
-
-
-
-
-
-
-![](img/43.png)
 ![](img/44.png)
+
+Les escollim i les agreguem.
+
 ![](img/45.png)
+
+Un cop agregats iniciem sessió amb el adminOU i entrem a l’administrador del servidor i entrem a usuaris i equips del directori.
+
 ![](img/46.png)
+
+Ara comprovem que podem posar un usuari a un grup.
+
 ![](img/47.png)
+
+Que pot canviar la contrasenya.
+
 ![](img/48.png)
+
+I que no pot eliminar usuaris.
+
 ![](img/49.png)
-![](img/50.png)
-![](img/51.png)
-![](img/52.png)
-![](img/53.png)
-![](img/54.png)
-![](img/55.png)
-![](img/56.png)
-![](img/57.png)
-![](img/58.png)
-![](img/59.png)
-![](img/60.png)
-![](img/61.png)
-![](img/62.png)
-![](img/63.png)
-![](img/64.png)
-![](img/65.png)
-![](img/66.png)
-![](img/67.png)
-![](img/68.png)
-![](img/69.png)
-![](img/70.png)
-![](img/71.png)
-![](img/72.png)
-![](img/73.png)
-![](img/74.png)
-![](img/75.png)
-![](img/76.png)
-![](img/77.png)
-![](img/78.png)
-![](img/79.png)
-![](img/80.png)
-![](img/81.png)
-![](img/82.png)
-![](img/83.png)
-![](img/84.png)
-![](img/85.png)
-![](img/86.png)
-![](img/87.png)
-![](img/88.png)
-![](img/89.png)
-![](img/90.png)
-![](img/91.png)
-![](img/92.png)
-![](img/93.png)
-![](img/94.png)
-![](img/95.png)
-![](img/96.png)
-![](img/97.png)
-![](img/98.png)
-![](img/99.png)
-![](img/100.png)
