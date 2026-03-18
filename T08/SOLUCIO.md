@@ -11,6 +11,8 @@
 
 - Interpreteu breument les dades: *El servidor està saturat o treballa sense estrès?*
 
+
+
 ## 2. Configuració d'Auditoria de Seguretat
 
 - Per detectar possibles atacs de força bruta, heu d'activar el registre d'accessos.
@@ -50,14 +52,4 @@ Actueu com a pèrits informàtics per trobar proves de l’intent d’intrusió.
 
 - **Tasca d'investigació:** Localitzeu l’**Event ID** que correspon a un *intent d’inici de sessió fallit*.
 
-# Què cal lliurar
-
-## Informe d'Auditoria
-- Captura dels recursos del sistema amb la vostra interpretació.
-- Captura de la configuració de la política d’auditoria activada.
-
-## Evidència forense
-- Captura clara del Visor d’Esdeveniments amb els errors d’inici de sessió generats.
-
-## Resposta tècnica
-- Indiqueu quin és l’**Event ID** que Windows assigna als errors d’inici de sessió.
+El event id és: 4771
