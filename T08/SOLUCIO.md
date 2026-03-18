@@ -46,6 +46,3 @@ Actueu com a pèrits informàtics per trobar proves de l’intent d’intrusió.
 
 ## Resposta tècnica
 - Indiqueu quin és l’**Event ID** que Windows assigna als errors d’inici de sessió.
-
-# Material de suport
-- **0224 SOX. Material UD7: AA3** [Moodle de l’assignatura]
