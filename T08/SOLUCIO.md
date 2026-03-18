@@ -6,7 +6,7 @@
 - Accediu al **Monitor de Rendiment** o al **Gestor de Tasques** del servidor.
 - Realitzeu una captura on es vegi clarament l'estat actual de la **CPU** i la **Memòria RAM** disponible.
 
-![alt text](image.png)
+![alt text](image-5.png)
 ![alt text](image-1.png)
 
 - Interpreteu breument les dades: *El servidor està saturat o treballa sense estrès?*
@@ -30,7 +30,7 @@ Posareu a prova el sistema configurat.
 - Intenteu iniciar sessió amb un usuari existent, però amb **contrasenya incorrecta**.
 - Repetiu el procés **3 o 4 vegades**.
 
-Ho he fet amb el compte de l'Anthony.
+Ho he fet amb el compte de Jhon.
 
 - Finalment, inicieu sessió correctament com a **administrador**.
 
@@ -41,11 +41,12 @@ Actueu com a pèrits informàtics per trobar proves de l’intent d’intrusió.
 - Aneu al registre de **Seguretat**.
 - Busqueu els esdeveniments que corresponguin als vostres intents fallits.
 
-
+![alt text](image.png)
 
 - Mostreu els detalls: usuari, hora, IP d’origen (si n’hi ha).
 
-
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 - **Tasca d'investigació:** Localitzeu l’**Event ID** que correspon a un *intent d’inici de sessió fallit*.
 
