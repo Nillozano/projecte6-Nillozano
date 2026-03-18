@@ -11,6 +11,7 @@
 
 - Interpreteu breument les dades: *El servidor està saturat o treballa sense estrès?*
 
+Es veu que tant com la CPU com la memòria RAM estan en una utilització mínima, ja que en tenir 8 GB de RAM per anar correctament només utilitza 2,6 GB i la CPU també està en consum baix. En conclusió, està molt bé, perquè totes dues funcionen perfectament amb un consum baix.
 
 
 ## 2. Configuració d'Auditoria de Seguretat
