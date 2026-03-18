@@ -1,19 +1,21 @@
-# Introducció
-Un cop la infraestructura bàsica de **TransLògic S.A.** està operativa, la direcció de l'empresa ha expressat la seva preocupació per la integritat de les dades i la possibilitat d'intrusions no detectades. En el món de la logística, la informació és tan crítica com la mercaderia física.
-
-Com a consultors de confiança, se us ha encarregat una nova tasca crítica: **establir mecanismes de vigilància activa**. L'objectiu no és només assegurar que el servidor té prou recursos per treballar, sinó també configurar les *caixes negres* del sistema (els logs) per poder rastrejar qualsevol activitat sospitosa o intent d'accés no autoritzat.
-
-# Descripció de l'activitat
+ Descripció de l'activitat
 
 ## 1. Monitorització de Recursos
-El client vol assegurar-se que el nou servidor dimensionat suporta la càrrega de treball.
+- El client vol assegurar-se que el nou servidor dimensionat suporta la càrrega de treball.
 
 - Accediu al **Monitor de Rendiment** o al **Gestor de Tasques** del servidor.
 - Realitzeu una captura on es vegi clarament l'estat actual de la **CPU** i la **Memòria RAM** disponible.
+
+![alt text](image.png)
+![alt text](image-1.png)
+
 - Interpreteu breument les dades: *El servidor està saturat o treballa sense estrès?*
 
 ## 2. Configuració d'Auditoria de Seguretat
-Per detectar possibles atacs de força bruta, heu d'activar el registre d'accessos.
+
+- Per detectar possibles atacs de força bruta, heu d'activar el registre d'accessos.
+
+![alt text](image-4.png)
 
 - Configureu la **política d'auditoria** (via GPO o política local) per auditar els successos d’inici de sessió.
 - Activeu tant els **èxits** (per saber qui entra) com els **fracassos** (per saber qui intenta entrar sense permís).

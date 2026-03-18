@@ -6,14 +6,15 @@ Com a consultors de confiança, se us ha encarregat una nova tasca crítica: **e
 # Descripció de l'activitat
 
 ## 1. Monitorització de Recursos
-El client vol assegurar-se que el nou servidor dimensionat suporta la càrrega de treball.
-
+- El client vol assegurar-se que el nou servidor dimensionat suporta la càrrega de treball.
 - Accediu al **Monitor de Rendiment** o al **Gestor de Tasques** del servidor.
 - Realitzeu una captura on es vegi clarament l'estat actual de la **CPU** i la **Memòria RAM** disponible.
 - Interpreteu breument les dades: *El servidor està saturat o treballa sense estrès?*
 
 ## 2. Configuració d'Auditoria de Seguretat
-Per detectar possibles atacs de força bruta, heu d'activar el registre d'accessos.
+- Per detectar possibles atacs de força bruta, heu d'activar el registre d'accessos.
+
+
 
 - Configureu la **política d'auditoria** (via GPO o política local) per auditar els successos d’inici de sessió.
 - Activeu tant els **èxits** (per saber qui entra) com els **fracassos** (per saber qui intenta entrar sense permís).
