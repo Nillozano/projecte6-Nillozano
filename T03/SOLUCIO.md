@@ -100,7 +100,7 @@ Seguidament fem un cp a projectenexus.
 
 I editem l'arxiu copiat, editant les següents linies.
 
-![alt text](image-26.png)
+![alt text](image-35.png)
 
 Comprovem que funcioni i resetajem el servei.
 
@@ -127,6 +127,25 @@ Ara fem el mateix amb academia i fem la comprovació.
 
 ![alt text](image-32.png)
 
+Ara mirem si ens surt via web (he posat el academia peruqe vegis que els dos estan bé ja que un tens el proces de edicio de arxiu i l'altre el resultat).
+
+![alt text](image-33.png)
+
+I provem amb /private/.
+
+![alt text](image-34.png)
+
 5. Optimització amb HTTP/2
 - Habiliteu el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.
+
+Primer hem de editar aquest document:
+
+![alt text](image-26.png)
+![alt text](image-37.png)
+
+Ho reiniciem.
+
+
 - Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.
+
+![alt text](image-36.png)
