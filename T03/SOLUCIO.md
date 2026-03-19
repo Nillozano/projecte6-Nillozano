@@ -89,7 +89,44 @@ Seguidament, desde el terminal mirem com veu el error 404 per la connexió erron
 4. Seguretat i Certificats (HTTPS)
 - Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).
 - Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+
+Primer entrem a dins de sites-available per no fer la següent comanda molt llarga posant tota la ruta.
+
+![alt text](image-24.png)
+
+Seguidament fem un cp a projectenexus.
+
+![alt text](image-25.png)
+
+I editem l'arxiu copiat, editant les següents linies.
+
+![alt text](image-26.png)
+
+Comprovem que funcioni i resetajem el servei.
+
+![alt text](image-27.png)
+
+Ara habilitarem el sites fent un enllaç en la carpeta de sites-enabled i verifiquem i reiniciem.
+
+![alt text](image-28.png)
+
+Fem tot el mateix amb academia.
+
 - Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
+
+Per fer-ho editem aquest arxiu:
+
+![alt text](image-29.png)
+![alt text](image-30.png)
+
+Comprovem que estigui ben escrit i reiniciem el servei. Seguidament, en la màquina client posem la comanda curl per probar-ho.
+
+![alt text](image-31.png)
+
+Ara fem el mateix amb academia i fem la comprovació.
+
+![alt text](image-32.png)
+
 5. Optimització amb HTTP/2
 - Habiliteu el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.
 - Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.
