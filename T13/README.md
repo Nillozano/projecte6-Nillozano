@@ -1,0 +1,1 @@
+Crear un curs de sostenibilitat dins de la nostra plataforma.
